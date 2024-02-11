@@ -7,9 +7,37 @@
 In APCSA (AP Computer Science A) we are curretly learning about Array List in Java. This unit has so far been challenging but after some background knowldege about arrays in Java unit 6 it was easy to understand but I didn't do to well in the unit 7 exam. Throughout this writeup I will take you through some of my challenges, thinkings, and questions I got wrong on the exam. 
 
 ### Challenge #1
+One challenge I had when learning unit 7 is understanding what enhanced for loops are and how it is different that a normal for loop. I saw this last unit but I didn't really understand what it was. To answer this I looked at some youtube videos like [this](https://www.youtube.com/watch?v=t8mmNbgKA8w) and searched on the internet. I learned that you use enhanced for loops when you don't need to keep track of the index and regular for loops are good if you want to access an index.
+#### Enhanced for loop
+```java
+int[] numbers = {1, 2, 3, 4, 5};
+int sum = 0;
+for (int num : numbers) {
+    sum += num;
+}
+```
+#### Regular for loop
+``` java
+int[] numbers = {1, 2, 3, 4, 5};
+int sum = 0;
+for (int i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+}
+```
+Some of the benefits of an enhanced for loop is that it is easier to write. Therefore making fewer mistakes and it is easier to read. 
 
 ### Challenge #2
+Anotehr challenge I had when learning unit 7 is understanding the concept of linear searching. I didn't understand what it was and how it could be used. After reading more of the documentation I learned that linear is searching for a specfic value in a group of other values. I also learned that I have been doing ever since learning Java. 
+```
+for (int i = 0; i < list.size(); i++) // Goes through every index in the array
+{
+  if (list.get(i).equals(target)) // If one of the arraies is equal to a certain something 
+  {
+    return i; //If the `if` value is true return the array
+  }
+}
 
+```
 ### Challenge #3
 In this challenge I will take you through some of the questions I got wrong on the exam and going over it on why I chose it and what the corret  answer is.
 #### Challenge #3.1
