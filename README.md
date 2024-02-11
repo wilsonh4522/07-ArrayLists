@@ -147,5 +147,9 @@ public ArrayList<String> combiList()
 }
 ```
 The combiList method is intended to return an ArrayList which contains every word which appears on list1 or list2 without any duplicate words. For which of the following values of list1 and list2 will the method not work as intended?
+For this question I chose `list1 = ["lock", "fire", "fire"] list2 = ["anvil", "pick", "steel"]`. This is wrong because the code above removes all duplicates and my answer has a duplicate in `list1`. There were comments in the question that told what each code block does. I did not look at this and wasted my time trying to understand what the code does. 
 
 ### Takeaways
+* Go to youtube if you do not understand a certain topic because there are a lot of online resources that can answer your question.
+* Always carefully read the documentation in projectstem because they can help you understand the concept better.
+* Always review the incorrect answers because that is how you learn.
